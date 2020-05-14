@@ -1,5 +1,6 @@
-include: "*.view"
-        
+include: "/views/*.view.lkml"
+include: "/geography/*.view.lkml"
+
 explore: acs_census_data_config {
   extends: [acs_census_data_core]
   extension: required
@@ -44,4 +45,3 @@ explore: cbsa_config {
   extends: [cbsa_core]
   extension: required
 }
-
