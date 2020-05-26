@@ -1,3 +1,3 @@
-project_name: "block_acs_census_bigquery_config"
+project_name: "data-block-acs-census-bigquery-config"
 
 ################ Constants ################
