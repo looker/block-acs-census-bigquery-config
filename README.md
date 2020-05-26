@@ -5,7 +5,7 @@ The U.S. Census Bureau’s [American Community Survey (ACS)](https://www.census.
 
 You'll find two types of view files in this Data Block: those related to geography (in the `geography` folder) and those that group fields into categories like `employment` and `population` (in the views folder). The Census Bureau designates  `GEOID` identifiers for each geographic region. `GEOID`s are hierarchical, allowing the `geographic` views to be joined via their respective `geo_id` fields to more granular levels.
 
-This block includes the following premade explores. Each explore includes accompnaying map layers based on Census Bureau's `GEOID` designations:
+This block includes the following premade explores. Each explore includes accompanying map layers based on Census Bureau's `GEOID` designations:
 
 - ACS Census Data
   - State
